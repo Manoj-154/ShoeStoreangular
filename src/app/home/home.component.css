@@ -1,0 +1,75 @@
+.backcolor{
+    
+    /* background-color: cadetblue ; */
+    background-color:grey;
+    width: 98.5%;
+    height: 80%;
+    position: absolute;
+    padding: 10px 10px;
+    margin-top:-22px;
+}
+
+#headercolor{
+    background-color:crimson;
+    color: white;
+    width: 97%;
+    /* height: 100%; */
+    padding: 15px 20px;
+    text-align: center;
+    /* margin: 0px 500px; */
+}
+.categories{
+    font-size: 20px;
+    display: flex;
+    margin: 50px;
+    
+}
+.categories button{
+    width:160px;
+    /* height: 100px; */
+    height:70px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: palevioletred;
+  /* position: relative; */
+}
+
+.categories button:hover {
+    color: black;
+    background-color: beige;
+}
+
+#cateItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.filteredCategories{
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.filteredCategories #foodContent{
+    margin-right: 100px;
+}
+.filteredCategories img{
+    width: 150px;
+    height: 130px;
+}
+figcaption{
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.images{
+    transform: translateX(-50px);
+    transition: transform 0.5s;
+    box-shadow: 0 0 20px 0 rgb(70, 70, 145);
+}

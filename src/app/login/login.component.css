@@ -1,0 +1,55 @@
+
+.box{
+    padding-top: 20px;
+    /* margin-left: 500px;  */
+    height: 100px;
+    text-align: center;
+    background-color: gray;
+    color: black;
+    height: max-content;
+    width: fit-content;
+    margin-left: 500px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: relative;
+    line-height: 40px;
+    margin-top: 50px;
+ }
+
+ 
+#name {
+    margin-left: 35px;
+}
+#email{
+    margin-left: 67px;
+}
+
+#password{
+    margin-left: 35px;
+}
+
+#phonenumber{
+    margin-left: 0px;
+}
+ 
+
+.login{
+    background-color:white;
+    color: black;
+}
+
+.login:hover{
+    background-color: black;
+    color: beige;
+    cursor: pointer;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 800px;
+    position: absolute;
+
+}
+p{
+    text-align: center;
+}

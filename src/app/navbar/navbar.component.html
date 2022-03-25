@@ -1,0 +1,38 @@
+<div id="navbar">
+
+    <input type="search" name="search" id="search" placeholder="search here">
+    <ul>
+        <li><a (click)="changeView()" routerLink="home">Home</a></li>
+        <li><a (click)="changeView()" routerLink="menandwomen">Men & Women</a></li> 
+        <li><a (click)="changeView()" routerLink="kids">Kids </a></li>
+        <li><a (click)="changeView()" routerLink="about">About</a></li>
+        <li><a (click)="changeView()" routerLink="orders">Cart</a></li>
+        <li><a (click)="changeView()" routerLink="contactus">Reach Us</a></li>
+        <li><button (click)="changeView()" routerLink="register">Login</button></li>
+        
+    </ul>
+</div>
+
+<img *ngIf="imgVisible" src="https://media.istockphoto.com/photos/boutique-shoes-in-a-store-picture-id1152527286?k=20&m=1152527286&s=170667a&w=0&h=G6NnmmN8in__EY2_pChCU7Bw3LJdSh2sh_2XLgPmAik=" alt="" width="80%">
+
+<!-- 
+<div class="categories">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src="https://media.istockphoto.com/photos/sport-shoes-on-isolated-white-background-picture-id956501428?k=20&m=956501428&s=612x612&w=0&h=UC4qdZa2iA0PJvv0RIBlJDyF80wxFyLPq4YWvZa30Sc=" >
+            </div>
+            <div class="col-3">
+                <img src="https://rukminim2.flixcart.com/image/300/300/ku5ufm80/shoe/b/v/y/6-mrj1653-aadi-black-original-imag7cstn2dng7tz.jpeg?q=90">
+            </div>
+            <div class="col-3">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI_z_zIEdSHgfzcsnSQQeKAf9ahugsIOIenA&usqp=CAU">
+            </div>
+            <div class="col-3">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfLyKKcyUkCPOgJwir6_39teZkDF1ggKWM5A&usqp=CAU">
+            </div>
+
+        </div>
+    </div>
+    
+</div> -->

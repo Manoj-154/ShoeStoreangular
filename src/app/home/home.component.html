@@ -1,0 +1,27 @@
+<div id="headercolor">
+<h1>Trending Branded Shoes</h1>
+</div>
+<div class="backcolor">
+<div class="categories">
+    <div *ngFor="let item of popItems" id="cateItems">
+        <button (click)="onSelect(item)" id="cateButton">
+            <img src="{{item.imgUrl}}" alt="">
+            <h2>{{item.names}}</h2>
+        </button>
+    </div>
+</div>
+
+<div class="filteredCategories">
+    <div *ngFor="let item of filteredItems">
+        <img class="images" src="{{item.itemImg}}" alt="">
+        <div id="foodContent">
+            <div *ngFor="let star of stars">
+                <!-- <img src="{{star.starImg}}" alt=""> -->
+            </div>
+            <figcaption>{{item.itemName}}</figcaption>
+            <h3>{{item.rate}}</h3>
+        </div>
+        <button (click)="add(item)">Add to cart</button>
+    </div>
+</div>
+</div>
