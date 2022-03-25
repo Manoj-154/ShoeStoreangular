@@ -17,6 +17,7 @@
 
 import { Component, OnInit } from '@angular/core';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
+// import { MatSnackBar, MatSnackBarHorizontalPosition, MatSnackBarVerticalPosition } from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-login',
@@ -25,8 +26,10 @@ import {FormControl, FormGroup, Validators} from '@angular/forms';
 })
 export class LoginComponent implements OnInit {
   signupForm: any;
+  // horizontalPosition: MatSnackBarHorizontalPosition | undefined;
+  // verticalPosition: MatSnackBarVerticalPosition | undefined;
   constructor() { }
-
+  // private _snackBar: MatSnackBar
   ngOnInit(): void {
     this.signupForm = new FormGroup({
       'userData' : new FormGroup({
@@ -37,8 +40,18 @@ export class LoginComponent implements OnInit {
       })
     })
   }
+  
 
   onSubmit(){
     console.log(this.signupForm)
   }
+
+  // openSnackBar() {
+  //   this._snackBar.open('Login successfull', 'Close', {
+  //     horizontalPosition: this.horizontalPosition,
+  //     verticalPosition: this.verticalPosition,
+  //   });
+  // }
+  
+
 }

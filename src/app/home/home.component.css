@@ -3,7 +3,8 @@
     /* background-color: cadetblue ; */
     background-color:grey;
     width: 98.5%;
-    height: 80%;
+    /* height: 80%; */
+    height: fit-content;
     position: absolute;
     padding: 10px 10px;
     margin-top:-22px;
@@ -72,4 +73,41 @@ figcaption{
     transform: translateX(-50px);
     transition: transform 0.5s;
     box-shadow: 0 0 20px 0 rgb(70, 70, 145);
+}
+/*  */
+/*  */
+.picture{
+    border: 1px solid black;
+    text-align: center ;
+    justify-content: center;
+    margin: 10px;
+    background-color:grey;
+
+}
+.picture img {
+    width: 200px;
+    height: 150px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+
+.picture h3{
+    text-align: justify;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.filteredCategories .picture:hover{
+    transform: translateY(-15px);
+    color: white;
+    background-color: black;
+
+}
+
+
+#cart:hover{
+    color: black;
+    background-color: crimson;
+    cursor: pointer;
 }

@@ -7,7 +7,6 @@
 .col-3 p{
     font-size: 15px;
     color: rgb(139, 37, 37);
-    /*color: #777;*/
 }
 
 .testimonial .col-3 h3{
@@ -30,9 +29,8 @@ h2{
 
 #feedback{
     color: black;
-    /*background: black;*/
+
     width: fit-content;
-    /*width: 100%;*/
     text-align: center;
     margin-left: 620px;
     margin-top: 47px;

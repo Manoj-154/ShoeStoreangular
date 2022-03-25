@@ -13,15 +13,16 @@
 
 <div class="filteredCategories">
     <div *ngFor="let item of filteredItems">
-        <img class="images" src="{{item.itemImg}}" alt="">
+       <div class="picture"> <img class="images" src="{{item.itemImg}}" alt="">
         <div id="foodContent">
             <div *ngFor="let star of stars">
                 <!-- <img src="{{star.starImg}}" alt=""> -->
             </div>
-            <figcaption>{{item.itemName}}</figcaption>
+            <h3>{{item.itemName}}</h3>
             <h3>{{item.rate}}</h3>
         </div>
-        <button (click)="add(item)">Add to cart</button>
+        <button  id="cart" (click)="add(item)">Add to cart</button>
+    </div>
     </div>
 </div>
 </div>
