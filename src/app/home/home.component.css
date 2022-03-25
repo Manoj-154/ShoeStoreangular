@@ -1,9 +1,7 @@
 .backcolor{
     
-    /* background-color: cadetblue ; */
     background-color:grey;
     width: 98.5%;
-    /* height: 80%; */
     height: fit-content;
     position: absolute;
     padding: 10px 10px;
@@ -14,10 +12,8 @@
     background-color:crimson;
     color: white;
     width: 97%;
-    /* height: 100%; */
     padding: 15px 20px;
     text-align: center;
-    /* margin: 0px 500px; */
 }
 .categories{
     font-size: 20px;
@@ -27,7 +23,6 @@
 }
 .categories button{
     width:160px;
-    /* height: 100px; */
     height:70px;
     text-align: center;
     padding-top: 10px;
@@ -36,7 +31,6 @@
     border-radius: 10px;
     cursor: pointer;
     background-color: palevioletred;
-  /* position: relative; */
 }
 
 .categories button:hover {
@@ -74,8 +68,6 @@ figcaption{
     transition: transform 0.5s;
     box-shadow: 0 0 20px 0 rgb(70, 70, 145);
 }
-/*  */
-/*  */
 .picture{
     border: 1px solid black;
     text-align: center ;

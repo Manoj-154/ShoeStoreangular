@@ -1,7 +1,6 @@
 h1{
     color: white;
     font-weight: bold;
-    /* margin-left: 590px; */
     text-align: center;
     padding-top: 10px;
     font-family: 'Lucida Grande';
@@ -9,8 +8,6 @@ h1{
 
 #creating{
     margin-left:15px;
-    /* background-color:grey; */
-    /* margin-top: -2px; */
     padding-bottom: 10px;
     padding-top: 0px;
 } 
@@ -30,12 +27,9 @@ h1{
     margin-left: 12px;
     margin-right: 5px;
     color: white;
-    /* background-color: black; */
-    /* cursor: pointer; */
 }
 
 .btn-btn-warning{
-    /* margin-left: 140px; */
     cursor: pointer;
     background-color: black;
     color: white;
@@ -58,7 +52,6 @@ h1{
 }
 .box{
    padding-top: 20px;
-   /* margin-left: 500px;  */
    height: 100px;
    text-align: center;
    background-color: crimson;
@@ -75,38 +68,13 @@ section{
     color: bisque;
     height: max-content;
 }
-/* .background{
-    background-color: black;
-    color: bisque;
-    margin-top: 0px;
-    height: fit-content
-} */
 
 
 footer{
-    /* background-color:black;  */
     height:200px; 
     position: relative; 
     
 }
-/* footer ul li {
-    display: inline-flex;
-    font-size: large;
-   
-    margin-left:10px;
-    position: relative;
-}  */
- /* margin-top: 200px; */
-
-/* footer ul li{
-    /* display: inline-flex; */
-   /* padding-bottom: 13px;
-    margin-top: -500px;
-    margin-left: 1000px;
-    color: aqua;
-    cursor: pointer;
-    position: absolute;
-} */
 
 ul{
     display: flex;
@@ -118,12 +86,6 @@ ul{
     cursor: pointer;
 }
 
-/* .list{
-    margin-top: 300px;
-    display: inline-block;
-    color: red;
-    position: absolute;
-} */
 .app{
     position: absolute;
     margin-top: 10px;
@@ -149,14 +111,12 @@ ul{
 
 #store{
     margin-left: 120px;
-    /* margin-top: 110px; */
     margin-top: 50px;
     position: absolute;
     color: cadetblue;
 }
 #sponser{
     margin-left: 500px;
-    /* margin-top: 110px; */
     margin-top: 50px;
     position: relative;
     color: cadetblue;

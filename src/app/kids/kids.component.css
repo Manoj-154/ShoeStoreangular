@@ -49,14 +49,12 @@ h1{
 }
 .categories button{
     width:160px;
-    /* height: 100px; */
     height:70px;
     text-align: center;
     padding-top: 0px;
     padding-bottom: 50px;
     margin: 7px;
     border-radius: 10px;
-    /* background-color: rgb(202, 245, 245); */
     background-color: palevioletred;
   
 }
@@ -86,16 +84,6 @@ h1{
 .filteredCategories #foodContent{
     margin-right: 100px;
 }
-/* .filteredCategories img{
-    width: 150px;
-    height: 130px;
-} */
-/* figcaption{
-    font-size: large;
-    font-weight: bold;
-    display: flex;
-    flex-wrap: wrap;
-} */
 
 .images{
     transform: translateX(-50px);
@@ -103,8 +91,3 @@ h1{
     box-shadow: 0 0 20px 0 rgb(70, 70, 145);
     
 }
-/* 
-.images:hover{
-    transform: translateX(-50px);
-    transition: transform 0.5s;
-} */
